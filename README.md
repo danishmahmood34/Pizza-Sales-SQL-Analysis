@@ -9,6 +9,7 @@ The analysis uses multiple related tables containing order information, pizza de
 The goal is to answer important business questions and demonstrate practical SQL skills used in a Data Analyst role.
 
 ---
+![Pizza Sales Project Overview](pizza_sales_project_overview.png)
 
 ## 🎯 Business Objectives
 
@@ -127,6 +128,8 @@ Advanced SQL techniques were used to calculate:
 
 The SQL analysis generated the following business insights from the pizza sales dataset.
 
+![Top 5 Pizzas](pizza_top5.png)
+
 ## 💰 Overall Performance
 
 | KPI                         |          Result |
@@ -142,6 +145,8 @@ The SQL analysis generated the following business insights from the pizza sales 
 * The **Large (L)** size was the most frequently ordered size, with **18,956 pizzas sold**.
 * **The Greek Pizza** had the highest individual pizza price at **$35.95** for the XXL size.
 
+![Pizza Sales by Category](pizza_category.png)
+
 ## 📊 Category Performance
 
 | Category | Pizzas Sold |      Share |
@@ -152,6 +157,8 @@ The SQL analysis generated the following business insights from the pizza sales 
 | Chicken  |      11,050 | **22.29%** |
 
 **Key takeaway:** Classic pizzas generated the highest sales volume, representing approximately **30% of all pizzas sold**.
+
+![Orders by Hour](pizza_orders_hourly.png)
 
 ## ⏰ Ordering Patterns
 
