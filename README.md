@@ -123,18 +123,77 @@ Advanced SQL techniques were used to calculate:
 
 # 💡 Key Insights
 
-The analysis can help identify:
+# 💡 Key Findings
 
-* Best-selling pizza products
-* Highest-performing pizza categories
-* Most popular pizza sizes
-* Peak ordering hours
-* Revenue-generating products
-* Product contribution to overall revenue
-* Top-performing products within individual categories
-* Revenue growth patterns over time
+The SQL analysis generated the following business insights from the pizza sales dataset.
 
-These insights can support decisions around **product promotion, inventory planning, pricing and sales strategy**.
+## 💰 Overall Performance
+
+| KPI                         |          Result |
+| --------------------------- | --------------: |
+| Total Orders                |      **21,350** |
+| Total Revenue               | **$817,860.05** |
+| Average Pizzas Sold per Day |      **138.47** |
+
+## 🍕 Product Performance
+
+* **The Classic Deluxe Pizza** was the most ordered pizza, with **2,453 pizzas sold**.
+* **The Thai Chicken Pizza** generated the highest revenue at **$43,434.25**.
+* The **Large (L)** size was the most frequently ordered size, with **18,956 pizzas sold**.
+* **The Greek Pizza** had the highest individual pizza price at **$35.95** for the XXL size.
+
+## 📊 Category Performance
+
+| Category | Pizzas Sold |      Share |
+| -------- | ----------: | ---------: |
+| Classic  |      14,888 | **30.03%** |
+| Supreme  |      11,987 | **24.18%** |
+| Veggie   |      11,649 | **23.50%** |
+| Chicken  |      11,050 | **22.29%** |
+
+**Key takeaway:** Classic pizzas generated the highest sales volume, representing approximately **30% of all pizzas sold**.
+
+## ⏰ Ordering Patterns
+
+The busiest ordering hours were:
+
+1. **12 PM — 2,520 orders**
+2. **1 PM — 2,455 orders**
+3. **6 PM — 2,399 orders**
+4. **5 PM — 2,336 orders**
+5. **7 PM — 2,009 orders**
+
+**Key takeaway:** Customer demand is particularly strong during **lunch hours and early evening**, which could help inform staffing and inventory planning.
+
+## 🏆 Top Revenue-Generating Pizzas
+
+| Rank | Pizza                        |        Revenue |
+| ---: | ---------------------------- | -------------: |
+|    1 | The Thai Chicken Pizza       | **$43,434.25** |
+|    2 | The Barbecue Chicken Pizza   | **$42,768.00** |
+|    3 | The California Chicken Pizza | **$41,409.50** |
+
+## 📈 Revenue Contribution
+
+**The Thai Chicken Pizza** was the largest individual contributor to revenue, accounting for approximately **5.31% of total revenue**.
+
+The next highest contributors were:
+
+* The Barbecue Chicken Pizza — **5.23%**
+* The California Chicken Pizza — **5.06%**
+* The Classic Deluxe Pizza — **4.67%**
+* The Spicy Italian Pizza — **4.26%**
+
+## 💡 Business Recommendations
+
+Based on the analysis:
+
+* Promote high-revenue pizzas such as **Thai Chicken** and **Barbecue Chicken**.
+* Ensure sufficient inventory and staffing during **12 PM–1 PM** and **5 PM–7 PM**.
+* Continue focusing on the **Classic category**, which has the highest sales volume.
+* Consider promotional campaigns around high-performing products.
+* Use revenue contribution and category performance to support future pricing and marketing decisions.
+
 
 ---
 
